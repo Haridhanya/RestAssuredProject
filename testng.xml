@@ -5,6 +5,7 @@
     <classes>
       <!--  <class name="api.tests.UserTest"/>-->
       <class name="api.tests.UserDD"/>
+      <class name="api.tests.PetTest"/>      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

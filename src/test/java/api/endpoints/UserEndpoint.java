@@ -33,7 +33,7 @@ public class UserEndpoint {
 	public static Response CreateUser(User payload)
 	{
 		
-		String createUrl=geturl().getString("createUrl");
+		String createUrl=geturl().getString("createUser");
 		
 		Response res=given().accept("application/json")
 				.contentType("application/json")
@@ -48,7 +48,7 @@ public class UserEndpoint {
 	
 	public static Response getUser(String username)
 	{
-		String getUrl=geturl().getString("getUrl");
+		String getUrl=geturl().getString("getUser");
 		Response res=given().pathParam("username", username)
 		.when().get(getUrl);
 		
@@ -58,7 +58,7 @@ public class UserEndpoint {
 	
 	public static Response updateUser(User body,String Username)
 	{
-		String updateUrl=geturl().getString("updateUrl");
+		String updateUrl=geturl().getString("updateUser");
 		
 		Response res=given().accept("application/json")
 				.contentType("application/json")
@@ -72,7 +72,7 @@ public class UserEndpoint {
 	}
 	public static Response deleteUser(String username)
 	{
-		String deleteUrl=geturl().getString("deleteUrl");
+		String deleteUrl=geturl().getString("deleteUser");
 		Response res=given().pathParam("username", username)
 		.when()
 		.delete(deleteUrl);

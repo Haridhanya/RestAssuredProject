@@ -34,3 +34,15 @@
 11:02:04.836 [main] INFO  api.tests.UserDD - =======Deleting the user===========
 11:02:08.235 [main] INFO  api.tests.UserDD - =======Deleting the user===========
 11:02:12.226 [main] INFO  api.tests.UserDD - =======Deleting the user===========
+18:08:11.901 [main] INFO  api.tests.UserDD - ===========Creating a new User===========
+18:08:17.601 [main] INFO  api.tests.UserDD - ===========Creating a new User===========
+18:08:20.548 [main] INFO  api.tests.UserDD - ===========Creating a new User===========
+18:08:23.254 [main] INFO  api.tests.UserDD - ===========Creating a new User===========
+18:08:25.920 [main] INFO  api.tests.UserDD - ===========Creating a new User===========
+18:08:28.545 [main] INFO  api.tests.UserDD - ===========Creating a new User===========
+18:08:31.881 [main] INFO  api.tests.UserDD - =======Deleting the user===========
+18:08:36.787 [main] INFO  api.tests.UserDD - =======Deleting the user===========
+18:08:40.698 [main] INFO  api.tests.UserDD - =======Deleting the user===========
+18:08:45.885 [main] INFO  api.tests.UserDD - =======Deleting the user===========
+18:08:50.699 [main] INFO  api.tests.UserDD - =======Deleting the user===========
+18:08:55.100 [main] INFO  api.tests.UserDD - =======Deleting the user===========
