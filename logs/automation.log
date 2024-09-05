@@ -64,3 +64,21 @@
 21:54:32.860 [main] INFO  api.tests.PetDD - =======Deleting the pet===========
 21:54:34.391 [main] INFO  api.tests.PetDD - =======Deleting the pet===========
 21:54:35.952 [main] INFO  api.tests.PetDD - =======Deleting the pet===========
+22:13:49.982 [main] INFO  api.tests.UserDDTest - ===========Creating a new User===========
+22:13:53.561 [main] INFO  api.tests.UserDDTest - ===========Creating a new User===========
+22:13:55.108 [main] INFO  api.tests.UserDDTest - ===========Creating a new User===========
+22:13:56.682 [main] INFO  api.tests.UserDDTest - ===========Creating a new User===========
+22:13:58.225 [main] INFO  api.tests.UserDDTest - ===========Creating a new User===========
+22:13:59.862 [main] INFO  api.tests.UserDDTest - ===========Creating a new User===========
+22:14:01.745 [main] INFO  api.tests.UserDDTest - =======Deleting the user===========
+22:14:03.333 [main] INFO  api.tests.UserDDTest - =======Deleting the user===========
+22:14:04.984 [main] INFO  api.tests.UserDDTest - =======Deleting the user===========
+22:14:06.617 [main] INFO  api.tests.UserDDTest - =======Deleting the user===========
+22:14:08.155 [main] INFO  api.tests.UserDDTest - =======Deleting the user===========
+22:14:09.690 [main] INFO  api.tests.UserDDTest - =======Deleting the user===========
+22:14:21.658 [main] INFO  api.tests.PetDDTest - =======Deleting the pet===========
+22:14:23.195 [main] INFO  api.tests.PetDDTest - =======Deleting the pet===========
+22:14:24.735 [main] INFO  api.tests.PetDDTest - =======Deleting the pet===========
+22:14:26.278 [main] INFO  api.tests.PetDDTest - =======Deleting the pet===========
+22:14:28.019 [main] INFO  api.tests.PetDDTest - =======Deleting the pet===========
+22:14:29.555 [main] INFO  api.tests.PetDDTest - =======Deleting the pet===========

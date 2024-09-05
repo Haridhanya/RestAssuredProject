@@ -1,6 +1,7 @@
 package api.tests;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 import org.json.JSONObject;
 import org.testng.annotations.BeforeTest;
@@ -23,6 +24,10 @@ public class PetTest {
 		PetCategory_SubClass cat=new PetCategory_SubClass();
 		cat.setId(102102102);
 		cat.setName("parrot");
+//		HashMap hm=new HashMap();
+//		hm.put("id", 102102102);
+//		hm.put("name", "parrot");
+		
 		//create Tag
 		PetTags_SubClass tag=new PetTags_SubClass();
 		tag.setId(102102102);
