@@ -13,7 +13,7 @@ import api.utilities.DataProviderS;
 import io.restassured.response.Response;
 
 
-public class UserDD {
+public class UserDDTest {
 
 	public Logger logger;
 	

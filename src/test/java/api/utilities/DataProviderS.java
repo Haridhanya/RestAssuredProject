@@ -14,8 +14,8 @@ public class DataProviderS {
 		String path=System.getProperty("user.dir")+"//testData//testdata.xlsx";
 		XLUtility xl=new XLUtility(path);
 		
-		int rownum=xl.getRowCount("Sheet1");
-		int colcount=xl.getCellCount("Sheet1",1);
+		int rownum=xl.getRowCount("USER");
+		int colcount=xl.getCellCount("USER",1);
 		
 		String apidata[][]=new String[rownum][colcount];
 		
@@ -23,7 +23,7 @@ public class DataProviderS {
 		{
 			for(int j=0;j<colcount;j++)
 			{
-				apidata[i-1][j]=xl.getCellData("Sheet1", i, j);
+				apidata[i-1][j]=xl.getCellData("USER", i, j);
 			}
 		}
 		return apidata;
@@ -36,15 +36,60 @@ public class DataProviderS {
 		String path=System.getProperty("user.dir")+"//testData//testdata.xlsx";
 		XLUtility xl=new XLUtility(path);
 		
-		int rownum=xl.getRowCount("Sheet1");
+		int rownum=xl.getRowCount("USER");
 		
 		String apidata[]=new String[rownum];
 		for(int i=1;i<=rownum;i++)
 		{
-			apidata[i-1]=xl.getCellData("Sheet1", i, 1);
+			apidata[i-1]=xl.getCellData("USER", i, 1);
 		}
 
 		return apidata;
 
 	}
+	
+	
+	@DataProvider(name="PetData")
+	public String[][] getAllDataPet() throws IOException
+	{
+		String path=System.getProperty("user.dir")+"//testData//testdata.xlsx";
+		XLUtility xl=new XLUtility(path);
+		
+		int rownum=xl.getRowCount("PET");
+		int colcount=xl.getCellCount("PET",1);
+		
+		String apidata[][]=new String[rownum][colcount];
+		
+		for(int i=1;i<=rownum;i++)
+		{
+			for(int j=0;j<colcount;j++)
+			{
+				apidata[i-1][j]=xl.getCellData("PET", i, j);
+			}
+		}
+		return apidata;
+	}
+	
+	@DataProvider(name="PetId")
+	public String[] getPetids() throws IOException
+	{
+		String path=System.getProperty("user.dir")+"//testData//testdata.xlsx";
+		XLUtility xl=new XLUtility(path);
+		
+		int rownum=xl.getRowCount("PET");
+		
+		String apidata[]=new String[rownum];
+		for(int i=1;i<=rownum;i++)
+		{
+			apidata[i-1]=xl.getCellData("PET", i, 0);
+		}
+
+		return apidata;
+
+	}
+	
+	
+	
+	
+	
 }
